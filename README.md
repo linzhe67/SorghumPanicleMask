@@ -34,4 +34,4 @@ UNet algorithm was based on Ronneberger et al., 2015 research and modified to fi
 
 ## `Full training and testing dataset`
 Due to the Github size limit, we cannot upload the full dataset. To download the full dataset, please use the link below: 
-
+https://texastechuniversity-my.sharepoint.com/:f:/g/personal/zhe_lin_ttu_edu/EurwbvwlbTBPvPPvnWZyOa8BCrlnBfElzYNvFgNPZ-vMlw?e=8zX7nU
