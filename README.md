@@ -1,6 +1,6 @@
 # Sorghum Panicle Detection and Counting using Unmanned Aerial System Images and Deep Learning
 
-This is a support page of paper "Sorghum Panicle Detection and Counting using Unmanned Aerial System Images and Deep Learning" as an original research. 
+This is a support page of paper "Sorghum Panicle Detection and Counting using Unmanned Aerial System Images and Deep Learning" as an original research. We developed a sorghum panicle detection and counting pipeline using UAS images based on an integration of image segmentation and UNet CNN model.
 
 ## `Code`
 UNet algorithm training code was based on Ronneberger et al., 2015 research and modified to fit our objectives.
@@ -26,3 +26,5 @@ Before testing, please split all test images.
 
 - Sorghum testing images
   - `testing`
+  
+### `To download the full dataset, please send me a email about your name and institution. I will send you the download link`
