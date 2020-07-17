@@ -27,4 +27,5 @@ Before testing, please split all test images.
 - Sorghum testing images
   - `testing`
   
-To download the full dataset, please send me a email about your name and institution. I will send you the download link
+## `Full training and testing dataset`
+Due to the Github size limit, we cannot upload the full dataset. To download the full dataset, please send me a email about your name and institution. I will send you the download link.
