@@ -3,7 +3,7 @@
 This is a support page of paper "Sorghum Panicle Detection and Counting using Unmanned Aerial System Images and Deep Learning" as an original research. We developed a sorghum panicle detection and counting pipeline using UAS images based on an integration of image segmentation and UNet CNN model.
 
 ## `Code`
-UNet algorithm training code was based on Ronneberger et al., 2015 research and modified to fit our objectives.
+UNet algorithm was based on Ronneberger et al., 2015 research and modified to fit our objectives.
 
 - code for training models of the UNet in Python
   - `Model_training.py`
@@ -13,7 +13,14 @@ UNet algorithm training code was based on Ronneberger et al., 2015 research and 
   
 - code for spliting testing images in Python
   - `image_spliting.py`
-  
+
+- Steps:
+  - `Run Model_training.py with Training_dataset`
+  - `Split all testing images using image_spliting.py`
+  - `Run Panicle_count.py with splited testing images`
+  - `Please check the detailed information in the manuscript`
+
+
 ## `Training_dataset`
 - Sorghum training images (1024 x 1024)
   - `images`
@@ -22,10 +29,9 @@ UNet algorithm training code was based on Ronneberger et al., 2015 research and 
   - `masks`
   
 ## `Testing_dataset`
-Before testing, please split all test images.
-
 - Sorghum testing images
   - `testing`
-  
+
 ## `Full training and testing dataset`
-Due to the Github size limit, we cannot upload the full dataset. To download the full dataset, please send me a email about your name and institution. I will send you the download link.
+Due to the Github size limit, we cannot upload the full dataset. To download the full dataset, please use the link below: 
+
